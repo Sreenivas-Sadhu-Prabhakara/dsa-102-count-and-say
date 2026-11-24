@@ -12,6 +12,13 @@ Pure simulation — the task is run-length encoding applied n−1 times. The cle
 
 **Complexity:** O(total output length) — which itself grows exponentially in n.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
